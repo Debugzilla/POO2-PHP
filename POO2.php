@@ -15,22 +15,9 @@ abstract class animal{
 
 }
 
+include "dogs.php";
+include "cats.php";
 
-class perro extends animal{
-    public function makesound()
-    {
-        return "guau guau";
-    }
-
-}
-
-
-class gato extends animal{
-    public function makesound()
-    {
-        return "miau miau";
-    }
-}
 
 
 $gat = new gato;
